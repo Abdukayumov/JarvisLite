@@ -4,8 +4,10 @@
     <application
         android:label="JarvisLite"
         android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">
-        <activity android:name=".MainActivity">
-            <intent-filter>
+        <activity 
+               android:name=".MainActivity"
+               androdi:exported="true">
+                <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
