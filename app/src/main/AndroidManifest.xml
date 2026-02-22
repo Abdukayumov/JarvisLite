@@ -1,3 +1,4 @@
+android:theme="@android:style/Theme.DeviceDefault.Light"
  <application
         android:label="JarvisLite"
         android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">
