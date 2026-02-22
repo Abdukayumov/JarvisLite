@@ -2,8 +2,8 @@
 
     <application
         android:label="JarvisLite"
-        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
-        <activity
+        android:theme="@android:style/Theme.DeviceDefault.Light">     
+         <activity 
             android:name=".MainActivity"
             android:exported="true">
 
